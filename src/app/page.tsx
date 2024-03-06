@@ -1,9 +1,9 @@
+'use client';
 
+import { CardHome } from "@/components/CardHome";
 
 export default function Home() {
   return (
-    <main>
-     <p>aaaa</p>
-    </main>
+      <CardHome />
   );
 }
