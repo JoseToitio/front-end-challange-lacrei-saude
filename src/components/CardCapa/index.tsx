@@ -2,7 +2,7 @@ import { Title, Background, Container, ContainerTitle } from "./styles";
 import logo from "@/app/public/images/LOGO_LACREI.png";
 import Image from "next/image";
 
-export const CardHome = () => {
+export const CardCapa = (): JSX.Element => {
   return (
     <Background>
       <Container>
