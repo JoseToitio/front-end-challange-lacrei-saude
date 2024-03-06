@@ -1,5 +1,6 @@
 "use client";
 
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { MainContent } from "@/components/MainContent";
 import { useEffect, useState } from "react";
@@ -21,6 +22,7 @@ export default function Home(): JSX.Element {
     {isClient && <Container>
       <Header />
       <MainContent />
+      <Footer />
     </Container>}
     </>
   );
