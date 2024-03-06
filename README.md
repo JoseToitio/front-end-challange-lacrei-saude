@@ -6,8 +6,6 @@ Certifique-se de ter o Node.js instalado em sua máquina antes de começar. Voc�
 
 Instalação
 Clone este repositório:
-bash
-Copy code
 git clone git@github.com:JoseToitio/front-end-challange-lacrei-saude.git
 
 npm install
