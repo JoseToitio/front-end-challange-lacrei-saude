@@ -1,6 +1,8 @@
 "use client";
 
 import { Header } from "@/components/Header";
+import { MainContent } from "@/components/MainContent";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -9,9 +11,17 @@ const Container = styled.div`
 `;
 
 export default function Home(): JSX.Element {
+  const [isClient, setIsClient] = useState(false)
+
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
   return (
-    <Container>
+    <>
+    {isClient && <Container>
       <Header />
-    </Container>
+      <MainContent />
+    </Container>}
+    </>
   );
 }
